@@ -7,7 +7,7 @@ import sqlite3
 
 
 def main():
-    st.header("Sample ::::st.write")
+    st.header("Sample maple::::st.write")
     conn = sqlite3.connect("data/WSDA_Music.db")
     cur = conn.cursor()
     cur.execute("""SELECT * FROM artist;""")
